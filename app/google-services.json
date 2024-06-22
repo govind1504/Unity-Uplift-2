@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "57515017765",
+    "project_id": "unity-up-lift-2",
+    "storage_bucket": "unity-up-lift-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57515017765:android:1d9041c994dd0f04d2a1cc",
+        "android_client_info": {
+          "package_name": "com.example.unityuplift2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZxknCNSaNIp_XnzNZLfJTdKVdr-IlxiA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
