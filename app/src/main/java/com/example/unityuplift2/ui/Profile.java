@@ -1,11 +1,11 @@
 package com.example.unityuplift2.ui;
 
 import android.annotation.SuppressLint;
-import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,8 +14,6 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.unityuplift2.EditProfile;
-import com.example.unityuplift2.MainActivity;
 import com.example.unityuplift2.Model.Users;
 import com.example.unityuplift2.R;
 import com.google.firebase.auth.FirebaseAuth;
@@ -72,9 +70,9 @@ public class Profile extends Fragment {
         editProfile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getContext(), "Hello", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(getActivity(), EditProfile.class);
-                startActivity(intent);
+                Fragment fragment = new EditProfile();
+                FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
+                ft.replace(R.id.frame,fragment).commit();
             }
         });
 
