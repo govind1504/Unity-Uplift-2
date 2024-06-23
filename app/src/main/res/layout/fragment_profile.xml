@@ -36,8 +36,12 @@
             android:id="@+id/userEmail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+Govind
+            android:text="@string/govindpa399_gmail_com"
+            app:layout_constraintTop_toBottomOf="@+id/UserrName"
             android:text="@string/prompt_email"
             app:layout_constraintTop_toBottomOf="@+id/userName"
+main
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="20dp"
