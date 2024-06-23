@@ -35,7 +35,7 @@
             android:id="@+id/UserEmail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Govindpa399@gmail.com"
+            android:text="@string/govindpa399_gmail_com"
             app:layout_constraintTop_toBottomOf="@+id/UserrName"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
