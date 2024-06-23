@@ -30,4 +30,5 @@ public class Users {
     public String setPass(){
         return pass;
     }
+
 }

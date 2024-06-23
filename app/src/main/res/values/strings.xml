@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Unity Up Lift 2</string>
+    <string name="app_name">Unity UpLift </string>
     <string name="login">Login</string>
     <string name="goto_main">Goto Main</string>
     <string name="enter_your_name">Enter your Name</string>
@@ -31,7 +31,11 @@
     <string name="search">Search</string>
     <string name="name">Name</string>
     <string name="edit">Edit Profile</string>
+Govind
     <string name="govindpa399_gmail_com">Govindpa399@gmail.com</string>
     <string name="music_community">Music Community</string>
     <string name="Mdisc">A music community is an interactive platform designed for music enthusiasts, artists, producers, and fans to connect, share, and engage with each other. This community fosters collaboration, creativity, and discovery</string>
+
+    <string name="back_button">Back Button</string>
+main
 </resources>

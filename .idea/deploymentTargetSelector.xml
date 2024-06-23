@@ -4,6 +4,7 @@
     <selectionStates>
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
+Govind
         <DropdownSelection timestamp="2024-06-23T10:36:04.956639Z">
           <Target type="DEFAULT_BOOT">
             <handle>
@@ -25,6 +26,16 @@
             </Target>
           </targets>
         </DialogSelection>
+=======
+        <DropdownSelection timestamp="2024-06-23T10:44:18.906128500Z">
+          <Target type="DEFAULT_BOOT">
+            <handle>
+              <DeviceId pluginId="PhysicalDevice" identifier="serial=GU95FUQKC64DOVMB" />
+            </handle>
+          </Target>
+        </DropdownSelection>
+        <DialogSelection />
+main
       </SelectionState>
     </selectionStates>
   </component>
