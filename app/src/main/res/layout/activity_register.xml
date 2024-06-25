@@ -16,7 +16,6 @@
         android:gravity="center"
         android:text="@string/register"
         android:textColor="@color/primary"
-
         android:textSize="35sp" />
 
     <EditText
@@ -25,6 +24,7 @@
         android:layout_height="wrap_content"
         android:padding="15dp"
         android:layout_margin="15dp"
+        android:inputType="textPersonName"
         android:hint="@string/enter_your_name" />
 
     <EditText
@@ -33,6 +33,7 @@
         android:layout_height="wrap_content"
         android:padding="15dp"
         android:layout_margin="15dp"
+        android:inputType="textEmailAddress"
         android:hint="@string/enter_your_email" />
     <EditText
         android:id="@+id/pass"

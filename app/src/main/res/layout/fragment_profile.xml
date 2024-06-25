@@ -10,6 +10,17 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/signOut"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:contentDescription="@string/sign_out"
+            android:src="@drawable/logout"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/profile_image"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"/>
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profile_image"
@@ -36,16 +47,12 @@
             android:id="@+id/userEmail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-Govind
-            android:text="@string/govindpa399_gmail_com"
-            app:layout_constraintTop_toBottomOf="@+id/UserrName"
             android:text="@string/prompt_email"
             app:layout_constraintTop_toBottomOf="@+id/userName"
-main
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="20dp"
-            android:textSize="25sp"/>
+            android:textSize="20sp"/>
 
         <Button
             android:id="@+id/editProfile"

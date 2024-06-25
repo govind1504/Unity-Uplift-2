@@ -23,6 +23,7 @@ public class SplashActivity extends AppCompatActivity {
                 if(check){
                     Intent intent = new Intent(SplashActivity.this, Home.class);
                     startActivity(intent);
+                    finish();
                 }else {
                     Intent intent = new Intent(SplashActivity.this , MainActivity.class);
                     startActivity(intent);

@@ -4,11 +4,10 @@
     <selectionStates>
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
-Govind
-        <DropdownSelection timestamp="2024-06-23T10:36:04.956639Z">
+        <DropdownSelection timestamp="2024-06-25T07:41:13.676227100Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="PhysicalDevice" identifier="serial=0f703a19f850" />
+              <DeviceId pluginId="PhysicalDevice" identifier="serial=R9ZR20CH9GE" />
             </handle>
           </Target>
         </DropdownSelection>
@@ -16,7 +15,7 @@ Govind
           <targets>
             <Target type="DEFAULT_BOOT">
               <handle>
-                <DeviceId pluginId="PhysicalDevice" identifier="serial=0f703a19f850" />
+                <DeviceId pluginId="PhysicalDevice" identifier="serial=R9ZR20CH9GE" />
               </handle>
             </Target>
             <Target type="DEFAULT_BOOT">
@@ -26,16 +25,6 @@ Govind
             </Target>
           </targets>
         </DialogSelection>
-=======
-        <DropdownSelection timestamp="2024-06-23T10:44:18.906128500Z">
-          <Target type="DEFAULT_BOOT">
-            <handle>
-              <DeviceId pluginId="PhysicalDevice" identifier="serial=GU95FUQKC64DOVMB" />
-            </handle>
-          </Target>
-        </DropdownSelection>
-        <DialogSelection />
-main
       </SelectionState>
     </selectionStates>
   </component>
