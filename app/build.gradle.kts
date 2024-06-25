@@ -51,4 +51,6 @@ dependencies {
     implementation ("com.squareup.picasso:picasso:2.8")
 //    glide for image download
     implementation ("com.github.bumptech.glide:glide:4.16.0")
+//    lottie animation
+    implementation ("com.airbnb.android:lottie:6.4.1")
 }

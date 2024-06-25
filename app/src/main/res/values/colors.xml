@@ -6,4 +6,5 @@
     <color name="Secondary">#a33bf7</color>
     <color name="gray">#474646</color>
     <color name="topBack">#E1E1E1</color>
+    <color name="secBack">#E3E2E2</color>
 </resources>

@@ -49,7 +49,6 @@ public class Home extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
-
         RecyclerView recyclerView = view.findViewById(R.id.recyclerView);
         recyclerView.hasFixedSize();
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
@@ -93,6 +92,8 @@ public class Home extends Fragment {
                 ft.replace(R.id.homeFrame,fragment).commit();
             }
         });
+
+
 
         return view;
     }
