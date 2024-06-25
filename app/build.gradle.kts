@@ -49,4 +49,6 @@ dependencies {
     implementation ("de.hdodenhof:circleimageview:3.1.0")
 //    picasso for image download
     implementation ("com.squareup.picasso:picasso:2.8")
+//    glide for image download
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
 }

@@ -40,5 +40,8 @@ Govind
     <string name="edit_profile">Edit Profile</string>
     <string name="save_changes">Save Changes</string>
     <string name="sign_out">Sign Out</string>
+    <string name="user_name">User Name</string>
+    <string name="user_bio">User Bio</string>
+    <string name="follow">Follow</string>
     main
 </resources>
