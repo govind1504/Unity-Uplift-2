@@ -1,6 +1,6 @@
 package com.example.unityuplift2.ui;
 
-import android.app.DownloadManager;
+
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -8,18 +8,17 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.telephony.PhoneNumberFormattingTextWatcher;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.example.unityuplift2.Adapter.SearchAdapter;
 import com.example.unityuplift2.Model.SearchUser;
 import com.example.unityuplift2.R;
-import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -29,7 +28,6 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Queue;
 
 public class Search extends Fragment {
 
@@ -38,7 +36,6 @@ public class Search extends Fragment {
     }
 
     private RecyclerView recyclerView;
-    private SearchUser searchUser;
     private SearchAdapter searchAdapter;
     private List<SearchUser> mUser;
 
@@ -60,7 +57,8 @@ public class Search extends Fragment {
         searchAdapter = new SearchAdapter(getContext(),mUser);
         recyclerView.setAdapter(searchAdapter);
 
-        readUser();searchBar.addTextChangedListener(new TextWatcher() {
+        readUser();
+        searchBar.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
@@ -117,7 +115,7 @@ public class Search extends Fragment {
 
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
-
+                Toast.makeText(getContext(), error.toString(), Toast.LENGTH_SHORT).show();
             }
         });
     }

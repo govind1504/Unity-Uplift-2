@@ -111,7 +111,6 @@ public class EditProfile extends Fragment {
                 edit.setVisibility(View.GONE);
                 editName.setVisibility(View.GONE);
                 editImage.setVisibility(View.GONE);
-
                 Fragment fragment = new Profile();
                 FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
                 ft.replace(R.id.editProf,fragment).commit();
