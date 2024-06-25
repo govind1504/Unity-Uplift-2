@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.UploadPost"
+    android:id="@+id/uploadFrame">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/UploadImgView"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/add_photo"
+            android:layout_gravity="center"
+            android:contentDescription="@string/image_to_be_posted"
+            android:layout_marginTop="40dp" />
+        <EditText
+            android:id="@+id/uploadDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="@string/enter_description_of_topic"
+            android:hint="@string/enter_description_of_topic"
+            android:layout_margin="16dp"
+            android:lines="2"
+            android:maxLines="2"
+            android:inputType="textMultiLine"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:hint="@string/enter_community_name"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+            <AutoCompleteTextView
+                android:id="@+id/selectCommunity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                tools:ignore="LabelFor" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/uploadBtn"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="@string/upload"
+            android:backgroundTint="@color/primary"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp" />
+        <Button
+            android:id="@+id/cancelBtn"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="@string/cancel"
+            android:backgroundTint="@color/primary"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>

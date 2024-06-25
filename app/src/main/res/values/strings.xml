@@ -31,7 +31,7 @@
     <string name="search">Search</string>
     <string name="name">Name</string>
     <string name="edit">Edit Profile</string>
-Govind
+    Govind
     <string name="govindpa399_gmail_com">Govindpa399@gmail.com</string>
     <string name="music_community">Music Community</string>
     <string name="Mdisc">A music community is an interactive platform designed for music enthusiasts, artists, producers, and fans to connect, share, and engage with each other. This community fosters collaboration, creativity, and discovery</string>
@@ -43,5 +43,18 @@ Govind
     <string name="user_name">User Name</string>
     <string name="user_bio">User Bio</string>
     <string name="follow">Follow</string>
+    <string name="programming">Programming</string>
+    <string name="enter_community_name">Enter Community Name</string>
+    <string name="upload">Upload</string>
+    <string name="cancel">Cancel</string>
+    <string name="communities">Communities</string>
+    <string name="community_name">Community Name</string>
+    <string name="community_description">Community Description</string>
+    <string name="home_community_image">Home Community Image</string>
+    <string name="like">like</string>
+    <string name="comment">Comment</string>
+    <string name="share">Share</string>
+    <string name="image_to_be_posted">Image to be Posted</string>
+    <string name="enter_description_of_topic">Enter Description of topic</string>
     main
 </resources>

@@ -28,7 +28,6 @@ public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.ViewHolder
 
     private Context mContext;
     private List<SearchUser> mUser;
-    private FirebaseUser firebaseUser;
 
     public SearchAdapter(Context mContext, List<SearchUser> mUser) {
         this.mContext = mContext;

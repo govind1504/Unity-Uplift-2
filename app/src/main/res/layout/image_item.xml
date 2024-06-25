@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="10dp"
+    android:padding="10dp"
+    android:layout_marginBottom="2dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/PostTitleImage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/cricket"
+                app:civ_border_color="@color/gray"/>
+            <TextView
+                android:id="@+id/homeCommunityName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/community"
+                android:layout_marginStart="10dp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        <ImageView
+            android:contentDescription="@string/home_community_image"
+            android:id="@+id/mainImg"
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:scaleType="centerCrop"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/postDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:justificationMode="inter_word"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="monospace"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
