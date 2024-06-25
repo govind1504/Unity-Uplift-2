@@ -56,5 +56,10 @@
     <string name="share">Share</string>
     <string name="image_to_be_posted">Image to be Posted</string>
     <string name="enter_description_of_topic">Enter Description of topic</string>
+    <string name="designed_by_gtu_students">Designed by GTU Students</string>
+    <string name="cricket">Cricket</string>
+    <string name="all_communities">All Communities</string>
+    <string name="music">Music</string>
+    <string name="gaming">Gaming</string>
     main
 </resources>

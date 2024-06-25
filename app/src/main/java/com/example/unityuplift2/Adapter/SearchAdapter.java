@@ -68,8 +68,6 @@ public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.ViewHolder
             searchUserName = itemView.findViewById(R.id.searchUserName);
             searchUserBio = itemView.findViewById(R.id.searchUserBio);
             circleImageView = itemView.findViewById(R.id.searchImageProfile);
-
-
         }
     }
 }
