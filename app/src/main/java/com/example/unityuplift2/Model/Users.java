@@ -7,6 +7,9 @@ public class Users {
         this.email = email;
         this.pass = pass;
     }
+    public Users(String name){
+        this.name = name;
+    }
 
     public Users(){}
 

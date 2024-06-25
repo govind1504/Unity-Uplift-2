@@ -37,5 +37,8 @@ Govind
     <string name="Mdisc">A music community is an interactive platform designed for music enthusiasts, artists, producers, and fans to connect, share, and engage with each other. This community fosters collaboration, creativity, and discovery</string>
 
     <string name="back_button">Back Button</string>
-main
+    <string name="edit_profile">Edit Profile</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="sign_out">Sign Out</string>
+    main
 </resources>

@@ -1,11 +1,13 @@
 package com.example.unityuplift2;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -16,6 +18,7 @@ import com.example.unityuplift2.ui.Search;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class Home extends AppCompatActivity {
+    private static final int ROOT_FRAGMENT_TAG = 0;
     private BottomNavigationView bottomNavigationView;
 
     @Override
@@ -52,10 +55,14 @@ public class Home extends AppCompatActivity {
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         if (flag) {
             fragmentTransaction.add(R.id.frame, fragment);
+            fragmentManager.popBackStack(ROOT_FRAGMENT_TAG,FragmentManager.POP_BACK_STACK_INCLUSIVE);
         }
         else {
             fragmentTransaction.replace(R.id.frame,fragment);
         }
+        fragmentTransaction.addToBackStack(null);
+
         fragmentTransaction.commit();
+
     }
 }
