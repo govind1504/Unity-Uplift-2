@@ -56,22 +56,24 @@ public class Search extends Fragment {
         mUser= new ArrayList<>();
         searchAdapter = new SearchAdapter(getContext(),mUser);
         recyclerView.setAdapter(searchAdapter);
-
+        recyclerView.setVisibility(View.GONE);
         readUser();
         searchBar.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
+                recyclerView.setVisibility(View.GONE);
             }
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                searchUsers(s.toString().toLowerCase());
+                recyclerView.setVisibility(View.VISIBLE);
+                searchUsers(s.toString());
             }
 
             @Override
             public void afterTextChanged(Editable s) {
-
+                recyclerView.setVisibility(View.VISIBLE);
+                searchUsers(s.toString());
             }
         });
 
